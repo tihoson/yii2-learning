@@ -20,7 +20,7 @@ services:
     build:
       context: ./docker/nginx
     ports:
-      - 80:80
+      - 70:70
     volumes:
       - ./:/var/www/app
       - ./docker/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf
